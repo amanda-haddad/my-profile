@@ -1,0 +1,109 @@
+/* Colors and fonts(99%) */
+body {
+    background-color: #FFEDED;
+    color: rgb(50, 50, 50) ;
+    font-family: Lora-sans serif; 
+    font-size: 17px ;
+}
+h1 {
+    font-family: Apple Chancery;
+    color: #6D2932;
+    font-size: 32px;
+}
+h2 {
+    font-family: Times New roman; 
+    color: #944E63;
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+h3 {
+    font-family: Lora-sans serif;
+    color: indianred; 
+    font-weight: !important;
+}
+h4 {
+    font-family: Lora-sans serif;
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: mediumvioletred;
+    font-weight: 600;
+    font-size: 14px;
+}
+a:hover {
+    color: mediumpurple;
+}
+/*custom design with class*/ 
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+
+    .container{
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .container{
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+.btn-blue{
+    background-color: mediumvioletred;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+/* Design ajustments using id (1% design remaining)*/ 
+#introduction p {
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
